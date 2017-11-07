@@ -1,0 +1,396 @@
+
+/********************
+  General
+********************/
+
+.clear-fix {
+    overflow: auto;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+/********************
+  Header
+********************/
+
+.header-nav,
+.footer-nav {
+  font-size: .9em;
+}
+
+.header-nav {
+  padding: 10px 10px 0 10px;
+  margin: 0;
+  justify-content: center;
+}
+
+.biopic {
+    display: none;
+}
+
+hr {
+   display: none;
+}
+
+#header,
+#lets-connect {
+  width: 100%;
+}
+
+.topContacts {
+  padding-top: 20px;
+}
+
+.topContacts,
+.footerContacts {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-category-text {
+    font-weight: bold;
+    /*margin-left: 20vw;*/
+}
+
+.contact-info-text,
+.skills-text {
+    display: inline-block;
+    padding: 5px;
+}
+
+.welcome-message {
+    display: block;
+    margin: 20px;
+    width: 80%;
+    display: none;
+}
+
+#skills-heading {
+    margin: 20px 10px;
+}
+
+#skills {
+    padding: 0 10px 10px;
+}
+
+.flex-box-space-around {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-flex-start {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+/********************
+  Main Sections
+********************/
+
+#education,
+#workExperience,
+#projects {
+    max-width: 100%;
+    margin: 20px;
+    padding-top: 20px;
+    border: 1px solid #000;
+}
+
+.biopic,
+#education,
+#workExperience,
+#projects,
+#mapDiv {
+  box-shadow: 8px 8px 10px #777;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  margin: 25px 5px;
+}
+
+.date-text {
+    display: block;
+    margin: 10px;
+}
+
+.location-text {
+    display: block;
+    margin: 10px;
+    font-style: italic;
+}
+
+.description-text {
+    text-align: left;
+    margin: 10px;
+}
+
+.major-text {
+    margin: 10px;
+}
+
+a {
+    display: block;
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/********************
+  Map Section
+********************/
+
+#mapDiv {
+    border: 1px solid #000;
+    margin: 20px;
+    max-width: 100%;
+    display: block;
+    font-size: 0.75em;
+}
+
+#map {
+    display: block;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+
+
+
+/********************
+  Footer
+********************/
+
+#lets-connect {
+  padding: 15px 15px 0 15px;
+}
+
+.lets-connect {
+  padding-bottom: 15px;
+}
+
+.footer-nav {
+  padding: 10px;
+}
+
+.footer-nav-link {
+  margin: 0;
+}
+
+/********************
+  Responsive Design
+********************/
+
+@media screen and (min-width: 436px) {
+
+  #name {
+    font-size: 2.5em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2em;
+  }
+
+  #skills-heading {
+    font-size: 1.5em;
+  }
+
+  .topContacts,
+  .footerContacts {
+    width: 220px;
+  }
+
+  .topContacts {
+    padding-top: 25px;
+  }
+
+  #skills-heading {
+    margin: 25px 10px;
+  }
+
+  #role,
+  .contact-category-text,
+  .contact-info-text,
+  .welcome-message,
+  .skills-text,
+  .date-text,
+  .location-text,
+  .major-text,
+  .description-text,
+  a {
+    font-size: 1.25em;
+  }
+
+  #education,
+  #workExperience,
+  #projects {
+    width: 75%;
+    display: inline-block;
+  }
+
+  #skills {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #education,
+  #workExperience,
+  #projects {
+    padding-top: 30px;
+  }
+
+  .education-entry,
+  .work-entry,
+  .project-entry {
+    margin: 30px 20px;
+  }
+
+  #mapDiv {
+    font-size: 0.9em;
+    width: 75%;
+    display: inline-block;
+  }
+
+  #map {
+    height: 200px;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+
+  .header-nav {
+    padding: 15px;
+  }
+
+}
+
+@media screen and (min-width: 525px) {
+
+  .header-nav {
+    padding: 15px 15px 25px 15px;
+  }
+
+}
+
+@media screen and (min-width: 651px) {
+
+  #name {
+    font-size: 2.7em;
+  }
+
+  #role {
+    font-size: 1.3em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.2em;
+  }
+
+  #skills-heading {
+    font-size: 1.6em;
+  }
+
+  .contact-category-text,
+  .contact-info-text,
+  .welcome-message,
+  .skills-text,
+  .date-text,
+  .location-text,
+  .major-text,
+  .description-text,
+  a {
+    font-size: 1.3em;
+  }
+
+  #header,
+  #education,
+  #workExperience,
+  #projects,
+  #mapDiv,
+  #lets-connect {
+    width: 65%;
+  }
+
+  #skills {
+    width: 100%;
+  }
+
+  #header,
+  #lets-connect {
+    margin: 0 auto;
+  }
+
+  .education-entry,
+  .work-entry,
+  .project-entry {
+    margin: 35px 20px;
+  }
+
+  .description-text {
+    width: 90%;
+    display: inline-block;
+  }
+
+}
+
+@media screen and (min-width: 851px) {
+
+  #header,
+  #education,
+  #workExperience,
+  #projects,
+  #mapDiv,
+  #lets-connect {
+    width: 50%;
+  }
+
+  /*.flex-box-space-around {
+    margin-right: 15%;
+  }*/
+
+}
+
+@media screen and (min-width: 950px) {
+
+  .contact-category-text {
+    padding: 0 5px;
+  }
+
+  #skills,
+  .topContacts,
+  .footerContacts {
+    width: 460px;
+  }
+
+}
